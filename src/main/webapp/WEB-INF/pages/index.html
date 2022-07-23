@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Users</title>
+</head>
+<body>
+<div>
+<table>
+  <tr>
+    <th>First name</th>
+    <th>Last name</th>
+    <th>E-mail</th>
+
+  </tr>
+  <tr th:each="user : ${users}">
+    <td th:text="${user.getName()}">model</td>
+    <td th:text="${user.getLastName()}">color</td>
+    <td th:text="${user.getEmail()}">power</td>
+      <td><a th:href="@{/{id}(id=${user.getId()})}">Edit</a></td>
+      <td><form th:method="delete" th:action="@{/{id}(id=${user.getId()})}">
+          <input type="submit" value="Delete"/>
+      </form></td>
+  </tr>
+</table>
+</div>
+<br>
+<hr>
+<form th:method="post" th:action="@{/}" th:object="${user}">
+    <div>
+    <label for="name">Name</label>
+    <input id="name" type="text" th:field="*{name}"/>
+    </div>
+    <div>
+    <label for="lastName">Last name</label>
+    <input id="lastName" required type="text" th:field="*{lastName}"/>
+    </div>
+    <div>
+    <label for="email">E-mail</label>
+    <input id="email" required type="text" th:field="*{email}"/>
+    </div>
+    <div>
+        <input type="submit" value="Add user"/>
+    </div>
+</form>
+</body>
+</html>
