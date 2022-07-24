@@ -12,10 +12,10 @@ public class AppInit extends AbstractAnnotationConfigDispatcherServletInitialize
     // Метод, указывающий на класс конфигурации
     @Override
     protected Class<?>[] getRootConfigClasses() {
-//        return new Class<?>[]{
-//                JPAConfig.class
-//        };
-        return null;
+        return new Class<?>[]{
+                JPAConfig.class
+        };
+//        return null;
     }
 
 
