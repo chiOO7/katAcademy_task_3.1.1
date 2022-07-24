@@ -16,7 +16,7 @@ public class User {
     private String name;
 
 
-    private String LastName;
+    private String lastName;
 
 
     private String email;
@@ -32,7 +32,7 @@ public class User {
     public User(long id, String name, String lastName, String email) {
         this.id = id;
         this.name = name;
-        LastName = lastName;
+        lastName = lastName;
         this.email = email;
     }
 
@@ -41,7 +41,7 @@ public class User {
         return "User{" +
                 "id=" + id +
                 ", firstName='" + name + '\'' +
-                ", LastName='" + LastName + '\'' +
+                ", LastName='" + lastName + '\'' +
                 ", email='" + email + '\'' +
                 '}';
     }
@@ -55,11 +55,11 @@ public class User {
     }
 
     public String getLastName() {
-        return LastName;
+        return lastName;
     }
 
     public void setLastName(String lastName) {
-        LastName = lastName;
+        this.lastName = lastName;
     }
 
     public String getEmail() {
@@ -76,7 +76,7 @@ public class User {
 
     public User(String firstName, String lastName, String email) {
         this.name = firstName;
-        this.LastName = lastName;
+        this.lastName = lastName;
         this.email = email;
     }
 }

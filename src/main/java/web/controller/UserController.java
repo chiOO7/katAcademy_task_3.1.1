@@ -16,31 +16,31 @@ public class UserController {
         this.userService = userService;
     }
 
-    @GetMapping("/")
-    public String hello() {
-        return "hello";
-//        return "index";
-    }
-
-
 //    @GetMapping("/")
-//    public String showUsers(Model model) {
-//        model.addAttribute("users", userService.showUsers());
-//        model.addAttribute("user", new User());
-//        return "index";
+//    public String hello() {
+//        return "hello";
+////        return "index";
 //    }
+
+
+    @GetMapping("/")
+    public String showUsers(Model model) {
+        model.addAttribute("users", userService.showUsers());
+        model.addAttribute("user", new User());
+        return "index";
+    }
 //
-//    @PostMapping("/")
-//    public String addUser(@ModelAttribute("user") User user) {
-//        userService.addUser(user);
-//        return "redirect:/";
-//    }
+    @PostMapping("/")
+    public String addUser(@ModelAttribute("user") User user) {
+        userService.addUser(user);
+        return "redirect:/";
+    }
 //
-//    @GetMapping("/{id}")
-//    public String edit(Model model, @PathVariable("id") long id) {
-//        model.addAttribute("user", userService.showUser(id));
-//        return "edit";
-//    }
+    @GetMapping("/{id}")
+    public String edit(Model model, @PathVariable("id") long id) {
+        model.addAttribute("user", userService.showUser(id));
+        return "edit";
+    }
 //
 //    @PatchMapping("/{id}")
 //    public String update(@ModelAttribute("user") User user, @PathVariable("id") long id) {
@@ -48,9 +48,9 @@ public class UserController {
 //        return "redirect:/";
 //    }
 //
-//    @DeleteMapping("/{id}")
-//    public String delete(@PathVariable("id") long id) {
-//        userService.delete(id);
-//        return "redirect:/";
-//    }
+    @DeleteMapping("/{id}")
+    public String delete(@PathVariable("id") long id) {
+        userService.delete(id);
+        return "redirect:/";
+    }
 }
