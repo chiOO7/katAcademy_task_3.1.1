@@ -9,12 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4441f532-61c3-4959-a8e0-236745eacf5e" name="Changes" comment="with DB v2 deploy success">
+    <list default="true" id="4441f532-61c3-4959-a8e0-236745eacf5e" name="Changes" comment="with DB v2 deploy success almost all works">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/config/JPAConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/config/JPAConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/repo/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/services/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/services/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/services/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/services/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -304,7 +303,8 @@
       <workItem from="1658653687069" duration="70000" />
       <workItem from="1658653777952" duration="339000" />
       <workItem from="1658654137788" duration="1393000" />
-      <workItem from="1658686805524" duration="4234000" />
+      <workItem from="1658686805524" duration="4505000" />
+      <workItem from="1658720127301" duration="672000" />
     </task>
     <task id="LOCAL-00001" summary="with DB v2 deploy success">
       <created>1658689864904</created>
@@ -313,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658689864904</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="with DB v2 deploy success almost all works">
+      <created>1658691336536</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658691336536</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,6 +340,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="with DB v2 deploy success" />
-    <option name="LAST_COMMIT_MESSAGE" value="with DB v2 deploy success" />
+    <MESSAGE value="with DB v2 deploy success almost all works" />
+    <option name="LAST_COMMIT_MESSAGE" value="with DB v2 deploy success almost all works" />
   </component>
 </project>

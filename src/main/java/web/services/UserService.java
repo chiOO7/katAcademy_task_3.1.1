@@ -38,7 +38,11 @@ public class UserService {
     }
 
         public void update(long id, User user) {
-
+        User toBeUpdated = repo.findById(id).get();
+            toBeUpdated.setName(user.getName());
+            toBeUpdated.setLastName(user.getLastName());
+            toBeUpdated.setEmail(user.getEmail());
+            repo.save(toBeUpdated);
     }
 
 //    private final UserDAO userDAO;

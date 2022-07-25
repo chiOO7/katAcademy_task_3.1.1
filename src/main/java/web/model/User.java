@@ -32,7 +32,7 @@ public class User {
     public User(long id, String name, String lastName, String email) {
         this.id = id;
         this.name = name;
-        lastName = lastName;
+        this.lastName = lastName;
         this.email = email;
     }
 
