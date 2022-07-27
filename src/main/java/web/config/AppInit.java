@@ -15,7 +15,6 @@ public class AppInit extends AbstractAnnotationConfigDispatcherServletInitialize
         return new Class<?>[]{
                 JPAConfig.class
         };
-//        return null;
     }
 
 
@@ -25,7 +24,6 @@ public class AppInit extends AbstractAnnotationConfigDispatcherServletInitialize
         return new Class<?>[]{
                 WebConfig.class
         };
-
     }
 
     /* Данный метод указывает url, на котором будет базироваться приложение */
@@ -44,5 +42,4 @@ public class AppInit extends AbstractAnnotationConfigDispatcherServletInitialize
         servletContext.addFilter("hiddenHttpMethodFilter",
                 new HiddenHttpMethodFilter()).addMappingForUrlPatterns(null, true, "/*");
     }
-
 }

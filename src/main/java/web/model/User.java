@@ -12,12 +12,9 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
-
     private String name;
 
-
     private String lastName;
-
 
     private String email;
 
@@ -72,7 +69,6 @@ public class User {
 
     public User() {
     }
-
 
     public User(String firstName, String lastName, String email) {
         this.name = firstName;

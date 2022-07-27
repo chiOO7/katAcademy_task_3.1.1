@@ -9,12 +9,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4441f532-61c3-4959-a8e0-236745eacf5e" name="Changes" comment="without xml v1">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/87692136-d4c8-4164-aabf-5a486dd1209d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/87692136-d4c8-4164-aabf-5a486dd1209d.xml" afterDir="false" />
+    <list default="true" id="4441f532-61c3-4959-a8e0-236745eacf5e" name="Changes" comment="without xml v2 - success!!!">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/PP_2_3_1_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/PP_2_3_1_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/config/AppInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/config/AppInit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/config/JPAConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/config/JPAConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/dao/UserDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/services/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/services/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/services/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -306,7 +312,8 @@
       <workItem from="1658686805524" duration="4505000" />
       <workItem from="1658720127301" duration="672000" />
       <workItem from="1658849104938" duration="384000" />
-      <workItem from="1658862832595" duration="2954000" />
+      <workItem from="1658862832595" duration="3234000" />
+      <workItem from="1658938670293" duration="2761000" />
     </task>
     <task id="LOCAL-00001" summary="with DB v2 deploy success">
       <created>1658689864904</created>
@@ -322,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658691336536</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="without xml v2 - success!!!">
+      <created>1658866075454</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658866075454</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,6 +357,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="with DB v2 deploy success" />
     <MESSAGE value="with DB v2 deploy success almost all works" />
-    <option name="LAST_COMMIT_MESSAGE" value="with DB v2 deploy success almost all works" />
+    <MESSAGE value="without xml v2 - success!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="without xml v2 - success!!!" />
   </component>
 </project>

@@ -16,7 +16,6 @@ import org.thymeleaf.spring5.view.ThymeleafViewResolver;
 @Configuration
 @EnableWebMvc
 @ComponentScan("web.controller")
-@ComponentScan("web.dao")
 @ComponentScan("web.services")
 public class WebConfig implements WebMvcConfigurer {
 
