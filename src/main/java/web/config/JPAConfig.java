@@ -1,6 +1,6 @@
 package web.config;
 
-import javax.persistence.*;
+import javax.persistence.EntityManagerFactory;
 import javax.sql.DataSource;
 
 import org.springframework.context.annotation.Bean;
